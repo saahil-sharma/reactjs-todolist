@@ -29,7 +29,7 @@ function App() {
     setTodoValue(valueToBeEdited)
     handleDeleteTodo(index)
   }
-
+    
   useEffect(() => {
     if (!localStorage) {
       return
@@ -55,3 +55,6 @@ function App() {
 }
 
 export default App
+
+
+
